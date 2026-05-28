@@ -1,0 +1,83 @@
+# Hugo configuration file
+title: VE✕OR
+
+author:
+  name: Pushpak Pandore
+  email: pushpak.pandore@gmail.com
+
+# import hextra as module
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 1
+
+    - name: Skills
+      pageRef: /skills
+      weight: 2
+
+    - name: Certification
+      pageRef: /certification
+      weight: 3
+
+    - name: Blog
+      pageRef: /Blog
+      identifier: blog
+      weight: 4
+      hasChildren: true
+     
+    - name: All Blogs
+      pageRef: /Blog
+      parent: blog
+
+    - name: SOC L1
+      pageRef: /Blog/soc-l1
+      parent: blog
+
+    - name: CEH
+      pageRef: /Blog/ceh
+      parent: blog 
+
+    - name: Extras
+      pageRef: /extras
+      weight: 5
+
+params:
+  navbar:
+    # width: full
+    # height: small
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.png
+      # dark: images/logo-dark.svg   # optional for dark mode
+      link: /
+      width: 40
+      height: 40
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+    
+  page:
+    width: wide
+    
+
+
+

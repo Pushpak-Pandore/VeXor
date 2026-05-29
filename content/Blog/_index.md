@@ -15,9 +15,9 @@ Welcome to my cybersecurity learning space where I share real-world knowledge an
 
 {{< cards >}}
 
-{{< card link="/Blog/soc-l1/" title="SOC L1 Journey" subtitle="Real-world SOC training and analysis" icon="shield-check" >}}
+{{< card link="/blog/soc-l1/" title="SOC L1 Journey" subtitle="Real-world SOC training and analysis" icon="shield-check" >}}
 
-{{< card link="/Blog/ceh" title="CEH Journey" subtitle="CEH preparation and notes" icon="book-open" >}}
+{{< card link="/blog/ceh" title="CEH Journey" subtitle="CEH preparation and notes" icon="book-open" >}}
 
 {{< /cards >}}
 

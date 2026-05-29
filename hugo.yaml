@@ -38,21 +38,21 @@ menu:
       weight: 3
 
     - name: Blog
-      pageRef: /Blog
+      pageRef: /blog
       identifier: blog
       weight: 4
       hasChildren: true
      
     - name: All Blogs
-      pageRef: /Blog
+      pageRef: /blog
       parent: blog
 
     - name: SOC L1
-      pageRef: /Blog/soc-l1
+      pageRef: /blog/soc-l1
       parent: blog
 
     - name: CEH
-      pageRef: /Blog/ceh
+      pageRef: /blog/ceh
       parent: blog 
 
     - name: Extras
